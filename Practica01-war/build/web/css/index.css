@@ -1,0 +1,18 @@
+
+.cabezera{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    text-align: center;    
+}
+
+#valor-cadena{
+    background: blue;
+}
+
+.formu{
+    position: absolute;
+    top: 32%;
+    width: 100%;
+    text-align: center;    
+}
