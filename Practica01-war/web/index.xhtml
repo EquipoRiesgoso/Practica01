@@ -21,12 +21,16 @@ and open the template in the editor.
         <div class="formu">            
             <h:form>
                 Nombre:     
-                <h:inputText id="valor-cadena"  binding="#{cadena}" /><br/>
+                <h:inputText id="valor-cadena" class ="tinput" binding="#{cadena}" /><br/>
+                Apellido Paterno:
+                <h:inputText id="valor-cadena1" class ="tinput"  binding="#{app}" /><br/>
+                Apellido Materno:
+                <h:inputText id="valor-cadena2" class ="tinput" binding="#{amm}" /><br/>
                 Venta total:
-                <h:inputText id="valor-cadena1" binding="#{venta}"/><br/>
+                <h:inputText id="valor-cadena3" class ="tinput" binding="#{venta}"/><br/>
                 Fecha de captura:
-                <h:inputText id="valor-cadena2" binding="#{fecha}"/><br/>
-                <h:commandButton id="solicitar" value="Enviar" action="#{anfitrion.atiende(cadena.value)}"/>
+                <h:inputText id="valor-cadena4"  class ="tinput" binding="#{fecha}"/><br/>                
+                <h:commandButton id="solicitar" value="Enviar" action="#{datos.procesar(cadena.value,app.value,amm.value,venta.value,fecha.value)}"/>
             </h:form>                
         </div>
     </h:body>

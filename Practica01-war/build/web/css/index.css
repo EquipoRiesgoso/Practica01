@@ -6,13 +6,17 @@
     text-align: center;    
 }
 
-#valor-cadena{
-    background: blue;
+.tinput{
+    min-width: 20%;
+    margin-bottom: 3px;
+    border-radius: 8px 8px 8px 8px;
+    background:rgba(96, 125, 139, 0.25);
 }
 
 .formu{
     position: absolute;
     top: 32%;
-    width: 100%;
-    text-align: center;    
+    width: 28%;
+    left: 38%;
+    text-align: left;    
 }

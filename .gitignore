@@ -1,5 +1,16 @@
+
 .DS_Store
 
 
 ### NetBeans ###
 /nbproject/
+=======
+/Practica01-war/build/
+/nbproject/private/
+/Practica01-ejb/nbproject/private/
+/Practica01-war/nbproject/private/
+/build/
+/Practica01-ejb/build/
+/dist/
+/Practica01-ejb/dist/
+/Practica01-war/dist/
