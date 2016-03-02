@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-
 .DS_Store
 
 
 ### NetBeans ###
 /nbproject/
-=======
-=======
->>>>>>> Pablocg
 /Practica01-war/build/
 /nbproject/private/
 /Practica01-ejb/nbproject/private/
@@ -16,8 +11,4 @@
 /Practica01-ejb/build/
 /dist/
 /Practica01-ejb/dist/
-<<<<<<< HEAD
 /Practica01-war/dist/
-=======
-/Practica01-war/dist/
->>>>>>> Pablocg
